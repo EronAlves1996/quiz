@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:h="http://xmlns.jcp.org/jsf/html" xmlns:composite="http://xmlns.jcp.org/jsf/composite">
+<h:body>
+  <composite:interface>
+    <composite:attribute name="alt" required="true" />
+    <composite:attribute name="src" required="true" />
+  </composite:interface>
+  <composite:implementation>
+    <h:graphicImage url="#{cc.attrs.src}" alt="#{cc.attrs.alt}" styleClass="header-img" />
+  </composite:implementation>
+</h:body>
+
+</html>
