@@ -6,7 +6,7 @@
   xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_3.xsd">
   <application>
     <resource-bundle>
-      <base-name>text.Messages</base-name>
+      <base-name>com.eronalves.Messages</base-name>
       <var>bundle</var>
     </resource-bundle>
     <locale-config>
